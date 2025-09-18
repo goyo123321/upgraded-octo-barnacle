@@ -1,12 +1,11 @@
 const pageConfig = {
   // Title for your status page
-  title: "数字套利 •「AM科技」's Status Page",
+  title: "监控面板",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://amclubss.com', label: '博客', highlight: true },
-    { link: 'https://809098.xyz', label: 'Blog'},
-    { link: 'https://youtube.com/@AM_CLUBS', label: 'YouTube' },
-    { link: 'https://github.com/amclubs', label: 'GitHub' }, 
+    { link: 'https://blog.xo.je/?i=1', label: '博客', highlight: true },
+    { link: 'https://mytv.goyo123.dynv6.net', label: 'CF反代抱脸MoonTV', highlight: true },
+    { link: 'https://tv.goyo123.giize.com/', label: 'CF反代爪云MoonTV', highlight: true }, 
   ],
 }
 
@@ -17,47 +16,37 @@ const workerConfig = {
   // passwordProtection: 'username:password',
   // Define all your monitors here
   monitors: [
-    // Example HTTP Monitor
-    {
-      // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'am.809098.xyz',
-      // `name` is used at status page and callback message
-      name: '博客',
-      // `method` should be a valid HTTP Method
-      method: 'GET',
-      // `target` is a valid URL
-      target: 'https://am.809098.xyz',
-      // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
-      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://am.809098.xyz',
-      // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
-      // expectedCodes: [200],
-      // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 10000,
-      // [OPTIONAL] headers to be sent
-      // headers: {
-      //   'User-Agent': 'Uptimeflare',
-      //   Authorization: 'Bearer YOUR_TOKEN_HERE',
-      // },
-      // [OPTIONAL] body to be sent
-      // body: 'Hello, world!',
-      // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
-      // responseKeyword: 'success',
-      // [OPTIONAL] if specified, the check will run in your specified region,
-      // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
-      // checkLocationWorkerRoute: 'https://am.809098.xyz',
-    },
-    // Example TCP Monitor
-    {
-      id: '809098.xyz',
-      name: 'Blog',
+       {
+      id: 'MoonTV抱脸',
+      name: 'MoonTV抱脸',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
+      target: 'https://ssass001-gost.hf.space',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      statusPageLink: 'https://ssass001-gost.hf.space',
+      timeout: 10000,
+    },
+    {
+      id: 'My Blog',
+      name: '博客',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://blog.xo.je',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://blog.xo.je',
+      timeout: 10000,
+    },
+    {
+      id: 'MoonTV爪云',
+      name: 'MoonTV爪云',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://mcgxofhwizyd.ap-northeast-1.clawcloudrun.com',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://mcgxofhwizyd.ap-northeast-1.clawcloudrun.com',
       timeout: 10000,
     },
   ],
