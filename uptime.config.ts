@@ -28,6 +28,17 @@ const workerConfig = {
       timeout: 10000,
     },
     {
+      id: '抱脸节点',
+      name: 'MoonTV抱脸',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ssass001-xt.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ssass001-xt.hf.space/sub',
+      timeout: 10000,
+    },
+    {
       id: 'My Blog',
       name: '博客',
       // `method` should be `TCP_PING` for tcp monitors
