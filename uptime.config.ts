@@ -28,19 +28,8 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'Komari',
-      name: 'Komari',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://ssass001-Komari.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssass001-Komari.hf.space',
-      timeout: 10000,
-    },
-    {
       id: '抱脸节点',
-      name: '抱脸节点',
+      name: '抱脸xhttp',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -69,6 +58,17 @@ const workerConfig = {
       target: 'https://mcgxofhwizyd.ap-northeast-1.clawcloudrun.com',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://mcgxofhwizyd.ap-northeast-1.clawcloudrun.com',
+      timeout: 10000,
+    },
+    {
+      id: 'Komari',
+      name: 'Komari',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ssass001-Komari.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ssass001-Komari.hf.space',
       timeout: 10000,
     },
   ],
