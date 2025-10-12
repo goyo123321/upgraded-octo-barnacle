@@ -68,7 +68,18 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'https://ssass001-Komari.hf.space',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssass001-Komari.hf.space',
+      statusPageLink: 'https://appwrite.2.1.4.b.0.d.0.0.1.0.a.2.ip6.arpa',
+      timeout: 10000,
+    },
+    {
+      id: '导航',
+      name: '导航页',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ssass001-nav-item.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ssass001-nav-item.hf.space/',
       timeout: 10000,
     },
   ],
