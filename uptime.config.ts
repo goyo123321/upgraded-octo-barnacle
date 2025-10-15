@@ -15,18 +15,7 @@ const workerConfig = {
   // passwordProtection: 'username:password',
   // Define all your monitors here
   monitors: [
-       {
-      id: 'MoonTV抱脸',
-      name: 'MoonTV抱脸',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://ssass001-gost.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssass001-gost.hf.space',
-      timeout: 10000,
-    },
-    {
+      {
       id: 'MoonTV爪云',
       name: 'MoonTV爪云',
       // `method` should be `TCP_PING` for tcp monitors
@@ -65,9 +54,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaa002-test02.hf.space/',
+      target: 'https://ssassxxaa002-test02.hf.space',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssassxxaa002-test02.hf.space/',
+      statusPageLink: 'https://ssassxxaa002-test02.hf.space',
       timeout: 10000,
     },
   ],
@@ -92,29 +81,6 @@ const workerConfig = {
       isUp: boolean,
       timeIncidentStart: number,
       timeNow: number,
-      reason: string
-    ) => {
-      // This callback will be called when there's a status change for any monitor
-      // Write any Typescript code here
-
-      // This will not follow the grace period settings and will be called immediately when the status changes
-      // You need to handle the grace period manually if you want to implement it
-    },
-    onIncident: async (
-      env: any,
-      monitor: any,
-      timeIncidentStart: number,
-      timeNow: number,
-      reason: string
-    ) => {
-      // This callback will be called EVERY 1 MINTUE if there's an on-going incident for any monitor
-      // Write any Typescript code here
-    },
-  },
-}
-
-// Don't forget this, otherwise compilation fails.
-export { pageConfig, workerConfig }      timeNow: number,
       reason: string
     ) => {
       // This callback will be called when there's a status change for any monitor
