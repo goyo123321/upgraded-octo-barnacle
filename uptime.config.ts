@@ -27,17 +27,6 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: '抱脸节点',
-      name: '抱脸Argopy',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://usargott-py.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://usargott-py.hf.space/sub',
-      timeout: 10000,
-    },
-    {
       id: 'MoonTV爪云',
       name: 'MoonTV爪云',
       // `method` should be `TCP_PING` for tcp monitors
@@ -54,7 +43,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ssass002-Komari.hf.space',
+      target: 'https://appwrite.2.1.4.b.0.d.0.0.1.0.a.2.ip6.arpa',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://appwrite.2.1.4.b.0.d.0.0.1.0.a.2.ip6.arpa',
       timeout: 10000,
@@ -71,8 +60,8 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: '火狐',
-      name: '抱脸火狐',
+      id: 'firefox',
+      name: 'Firefox',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
@@ -103,6 +92,29 @@ const workerConfig = {
       isUp: boolean,
       timeIncidentStart: number,
       timeNow: number,
+      reason: string
+    ) => {
+      // This callback will be called when there's a status change for any monitor
+      // Write any Typescript code here
+
+      // This will not follow the grace period settings and will be called immediately when the status changes
+      // You need to handle the grace period manually if you want to implement it
+    },
+    onIncident: async (
+      env: any,
+      monitor: any,
+      timeIncidentStart: number,
+      timeNow: number,
+      reason: string
+    ) => {
+      // This callback will be called EVERY 1 MINTUE if there's an on-going incident for any monitor
+      // Write any Typescript code here
+    },
+  },
+}
+
+// Don't forget this, otherwise compilation fails.
+export { pageConfig, workerConfig }      timeNow: number,
       reason: string
     ) => {
       // This callback will be called when there's a status change for any monitor
