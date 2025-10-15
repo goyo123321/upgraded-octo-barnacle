@@ -4,7 +4,6 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://blog.xo.je/?i=1', label: '博客', highlight: true },
-    { link: 'https://mytv.goyo123.dynv6.net', label: 'CF反代抱脸MoonTV', highlight: true },
     { link: 'https://tv.goyo123.giize.com/', label: 'CF反代爪云MoonTV', highlight: true }, 
   ],
 }
@@ -29,24 +28,13 @@ const workerConfig = {
     },
     {
       id: '抱脸节点',
-      name: '抱脸xhttp',
+      name: '抱脸Argopy',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ssass001-xt.hf.space',
+      target: 'https://usargott-py.hf.space',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssass001-xt.hf.space/sub',
-      timeout: 10000,
-    },
-    {
-      id: 'My Blog',
-      name: '博客',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://blog.xo.je',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://blog.xo.je',
+      statusPageLink: 'https://usargott-py.hf.space/sub',
       timeout: 10000,
     },
     {
@@ -66,20 +54,31 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ssass001-Komari.hf.space',
+      target: 'https://ssass002-Komari.hf.space',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://appwrite.2.1.4.b.0.d.0.0.1.0.a.2.ip6.arpa',
       timeout: 10000,
     },
     {
-      id: '导航',
-      name: '导航页',
+      id: '火狐',
+      name: '抱脸火狐',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ssass001-nav-item.hf.space/',
+      target: 'https://ssassxxaa002-eooce-firefox.hf.space/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssass001-nav-item.hf.space/',
+      statusPageLink: 'https://ssassxxaa002-eooce-firefox.hf.space/',
+      timeout: 10000,
+    },
+    {
+      id: '火狐',
+      name: '抱脸火狐',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ssassxxaa002-test02.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ssassxxaa002-test02.hf.space/',
       timeout: 10000,
     },
   ],
