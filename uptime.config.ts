@@ -32,7 +32,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://appwrite.2.1.4.b.0.d.0.0.1.0.a.2.ip6.arpa',
+      target: 'https://ssassxxaa002-komari.hf.space/',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://appwrite.2.1.4.b.0.d.0.0.1.0.a.2.ip6.arpa',
       timeout: 10000,
