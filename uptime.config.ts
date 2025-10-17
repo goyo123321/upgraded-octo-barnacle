@@ -38,6 +38,17 @@ const workerConfig = {
       timeout: 10000,
     },
     {
+      id: 'Komari-agent',
+      name: 'Komari-agent',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ssassxxaa002-agent.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ssassxxaa002-agent.hf.space',
+      timeout: 10000,
+    },
+    {
       id: '火狐',
       name: '抱脸火狐',
       // `method` should be `TCP_PING` for tcp monitors
@@ -51,6 +62,28 @@ const workerConfig = {
     {
       id: 'firefox',
       name: 'Firefox',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ssassxxaaus-test123.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ssassxxaaus-test123.hf.space',
+      timeout: 10000,
+    },
+    {
+      id: 'webssh',
+      name: 'webssh',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ssassxxaaus-webssh.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ssassxxaaus-webssh.hf.space',
+      timeout: 10000,
+    },
+    {
+      id: 'firefox2',
+      name: 'Firefox2',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
