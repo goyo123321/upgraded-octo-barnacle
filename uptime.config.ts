@@ -32,7 +32,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaa002-kmi.hf.space/',
+      target: 'https://ssassxxaa002-kmi.hf.space',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://appwrite.2.1.4.b.0.d.0.0.1.0.a.2.ip6.arpa',
       timeout: 10000,
@@ -79,6 +79,17 @@ const workerConfig = {
       target: 'https://ssassxxaaus-webssh.hf.space',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://ssassxxaaus-webssh.hf.space',
+      timeout: 10000,
+    },
+    {
+      id: '组织卡',
+      name: '抱脸组织卡',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://usargott-readme.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://usargott-readme.hf.space/',
       timeout: 10000,
     },
     {
