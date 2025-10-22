@@ -60,14 +60,14 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'firefox',
-      name: 'Firefox',
+      id: '抱脸MoonTV',
+      name: '抱脸MoonTV',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaaus-test123.hf.space',
+      target: 'https://roadcancerous-de.hf.space/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssassxxaaus-test123.hf.space',
+      statusPageLink: 'https://roadcancerous-de.hf.space/',
       timeout: 10000,
     },
     {
@@ -79,17 +79,6 @@ const workerConfig = {
       target: 'https://ssassxxaaus-webssh.hf.space',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://ssassxxaaus-webssh.hf.space',
-      timeout: 10000,
-    },
-    {
-      id: '组织卡',
-      name: '抱脸组织卡',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://usargott-readme.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://usargott-readme.hf.space/',
       timeout: 10000,
     },
     {
