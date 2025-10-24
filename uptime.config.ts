@@ -65,9 +65,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://cfnezhatt-bhfhgtt.hf.space/',
+      target: 'https://cgfhhggf-xxxtev.hf.space',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://cfnezhatt-bhfhgtt.hf.space/',
+      statusPageLink: 'https://cgfhhggf-xxxtev.hf.space/',
       timeout: 10000,
     },
     {
