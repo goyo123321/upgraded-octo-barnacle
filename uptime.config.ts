@@ -71,6 +71,17 @@ const workerConfig = {
       timeout: 10000,
     },
     {
+      id: '抱脸MoonTV2',
+      name: '抱脸MoonTV2',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://hostserv-xxxx.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://hostserv-xxxx.hf.space/',
+      timeout: 10000,
+    },
+    {
       id: 'webssh',
       name: 'webssh',
       // `method` should be `TCP_PING` for tcp monitors
@@ -79,6 +90,28 @@ const workerConfig = {
       target: 'https://ssassxxaaus-webssh.hf.space',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://ssassxxaaus-webssh.hf.space',
+      timeout: 10000,
+    },
+    {
+      id: '抱脸ff',
+      name: '抱脸ff',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://hostserv-kkffv.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://hostserv-kkffv.hf.space/',
+      timeout: 10000,
+    },
+    {
+      id: '抱脸xt',
+      name: '抱脸xt',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://ssassxxaa002-xt.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://ssassxxaa002-xt.hf.space/',
       timeout: 10000,
     },
     {
