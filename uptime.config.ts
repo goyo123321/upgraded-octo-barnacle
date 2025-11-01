@@ -50,13 +50,13 @@ const workerConfig = {
     },
     {
       id: '火狐',
-      name: '抱脸火狐',
+      name: '老王火狐',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaa002-eooce-firefox.hf.space/',
+      target: 'https://ssassxxaa002-eooce-f.hf.space/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssassxxaa002-eooce-firefox.hf.space/',
+      statusPageLink: 'https://ssassxxaa002-eooce-f.hf.space/',
       timeout: 10000,
     },
     {
