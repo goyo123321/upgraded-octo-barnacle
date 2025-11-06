@@ -157,7 +157,7 @@ const workerConfig = {
       tooltip: 'My production server monitor',
       statusPageLink: 'https://xxxxxxxxxxio-ddapp.hf.space/',
       timeout: 10000,
-    },
+    }
   ],
   notification: {
     // [Optional] apprise API server URL
