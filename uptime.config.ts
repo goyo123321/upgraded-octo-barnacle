@@ -60,6 +60,28 @@ const workerConfig = {
       timeout: 10000,
     },
     {
+      id: 'linuxserver',
+      name: 'linuxserver/firefox',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://xxxxxxxxxxio-linuxserver.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://xxxxxxxxxxio-linuxserver.hf.space/',
+      timeout: 10000,
+    },
+    {
+      id: 'ddapp',
+      name: 'ddapp/firefox',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://xxxxxxxxxxio-ddapp.hf.space/',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://xxxxxxxxxxio-ddapp.hf.space/',
+      timeout: 10000,
+    },
+    {
       id: '抱脸MoonTV',
       name: '抱脸MoonTV',
       // `method` should be `TCP_PING` for tcp monitors
