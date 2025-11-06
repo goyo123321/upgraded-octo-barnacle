@@ -54,9 +54,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://xxxxxxxxxxio-ffapp000.hf.space/',
+      target: 'https://cgfhhggf-linlao.hf.space/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://xxxxxxxxxxio-ffapp000.hf.space/',
+      statusPageLink: 'https://cgfhhggf-linlao.hf.space/',
       timeout: 10000,
     },
     {
@@ -65,9 +65,9 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://cgfhhggf-xxxtev.hf.space',
+      target: 'https://cgfhhggf-mydv.hf.space/',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://cgfhhggf-xxxtev.hf.space/',
+      statusPageLink: 'https://cgfhhggf-mydv.hf.space/',
       timeout: 10000,
     },
     {
@@ -101,6 +101,18 @@ const workerConfig = {
       target: 'https://hostserv-kkffv.hf.space/',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://hostserv-kkffv.hf.space/',
+      timeout: 10000,
+    },
+    {
+      id: 'jlesage/firefox',
+      name: 'jlesage/firefox',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://cgfhhggf-jlaoff.hf.space/
+',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://cgfhhggf-jlaoff.hf.space/',
       timeout: 10000,
     },
     {
