@@ -4,6 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://blog.xo.je/?i=1', label: '博客', highlight: true },
+    { link: 'https://laotes-nav.hf.space/admin', label: '我的老王导航页', highlight: true },
     { link: 'https://tv.goyo123.giize.com/', label: 'CF反代爪云MoonTV', highlight: true }, 
   ],
 }
@@ -145,6 +146,17 @@ const workerConfig = {
       target: 'https://ssassxxaa002-xt.hf.space/',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://ssassxxaa002-xt.hf.space/',
+      timeout: 10000,
+    },
+    {
+      id: '老王导航',
+      name: '老王导航页',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://laotes-nav.hf.space',
+      tooltip: 'My production server monitor',
+      statusPageLink: 'https://laotes-nav.hf.space/admin',
       timeout: 10000,
     },
     {
