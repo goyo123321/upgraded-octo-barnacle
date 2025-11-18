@@ -4,7 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://blog.xo.je/?i=1', label: '博客', highlight: true },
-    { link: 'https://cgfhhggf-item.hf.space/admin', label: '我的老王导航页', highlight: true },
+    { link: 'https://laotes-nav.hf.space/admin', label: '我的老王导航页', highlight: true },
     { link: 'https://tv.goyo123.giize.com/', label: 'CF反代爪云MoonTV', highlight: true }, 
   ],
 }
@@ -25,28 +25,6 @@ const workerConfig = {
       target: 'https://mcgxofhwizyd.ap-northeast-1.clawcloudrun.com',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://mcgxofhwizyd.ap-northeast-1.clawcloudrun.com',
-      timeout: 10000,
-    },
-    {
-      id: 'Komari',
-      name: 'Komari',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaa002-kmi.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://appwrite.2.1.4.b.0.d.0.0.1.0.a.2.ip6.arpa',
-      timeout: 10000,
-    },
-    {
-      id: 'Komari-agent',
-      name: 'Komari-agent',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaa002-agent.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssassxxaa002-agent.hf.space',
       timeout: 10000,
     },
     {
@@ -72,47 +50,14 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: 'ddapp',
-      name: 'ddapp/firefox',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://xxxxxxxxxxio-ddapp.hf.space/',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://xxxxxxxxxxio-ddapp.hf.space/',
-      timeout: 10000,
-    },
-    {
       id: '抱脸MoonTV',
       name: '抱脸MoonTV',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://cgfhhggf-mydv.hf.space/',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://cgfhhggf-mydv.hf.space/',
-      timeout: 10000,
-    },
-    {
-      id: '抱脸MoonTV2',
-      name: '抱脸MoonTV2',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://hostserv-xxxx.hf.space/',
       tooltip: 'My production server monitor',
       statusPageLink: 'https://hostserv-xxxx.hf.space/',
-      timeout: 10000,
-    },
-    {
-      id: 'webssh',
-      name: 'webssh',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaaus-webssh.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssassxxaaus-webssh.hf.space',
       timeout: 10000,
     },
     {
@@ -138,39 +83,17 @@ const workerConfig = {
       timeout: 10000,
     },
     {
-      id: '抱脸xt',
-      name: '抱脸xt',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaa002-xt.hf.space/',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssassxxaa002-xt.hf.space/',
-      timeout: 10000,
-    },
-    {
       id: '老王导航',
       name: '老王导航页',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://cgfhhggf-item.hf.space',
+      target: 'https://laotes-nav.hf.space',
       tooltip: 'My production server monitor',
-      statusPageLink: 'https://cgfhhggf-item.hf.space/',
+      statusPageLink: 'https://laotes-nav.hf.space/admin',
       timeout: 10000,
     },
-    {
-      id: 'firefox2',
-      name: 'Firefox2',
-      // `method` should be `TCP_PING` for tcp monitors
-      method: 'GET',
-      // `target` should be `host:port` for tcp monitors
-      target: 'https://ssassxxaa002-ff.hf.space',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://ssassxxaa002-ff.hf.space',
-      timeout: 10000,
-    },
-      ],
+  ],
   notification: {
     // [Optional] apprise API server URL
     // if not specified, no notification will be sent
